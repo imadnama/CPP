@@ -41,67 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/emadn/CLionProjects/untitled1/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled1
+# Object build statements for EXECUTABLE target partc
 
 
 #############################################
-# Order-only phony target for untitled1
+# Order-only phony target for partc
 
-build cmake_object_order_depends_target_untitled1: phony || .
+build cmake_object_order_depends_target_partc: phony || .
 
-build CMakeFiles/untitled1.dir/driver2.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/driver2.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\driver2.cpp.obj.d
+build CMakeFiles/partc.dir/Assignment4/part_c/driver.cpp.obj: CXX_COMPILER__partc_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/Assignment4/part_c/driver.cpp || cmake_object_order_depends_target_partc
+  DEP_FILE = CMakeFiles\partc.dir\Assignment4\part_c\driver.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/Time.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/Time.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\Time.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/Item.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/Item.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\Item.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/Order.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/Order.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\Order.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/Resturant.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/Resturant.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\Resturant.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
-build CMakeFiles/untitled1.dir/tools.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/emadn/CLionProjects/untitled1/tools.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\tools.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
+  OBJECT_DIR = CMakeFiles\partc.dir
+  OBJECT_FILE_DIR = CMakeFiles\partc.dir\Assignment4\part_c
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled1
+# Link build statements for EXECUTABLE target partc
 
 
 #############################################
-# Link the executable untitled1.exe
+# Link the executable partc.exe
 
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/driver2.cpp.obj CMakeFiles/untitled1.dir/Time.cpp.obj CMakeFiles/untitled1.dir/Item.cpp.obj CMakeFiles/untitled1.dir/Order.cpp.obj CMakeFiles/untitled1.dir/Resturant.cpp.obj CMakeFiles/untitled1.dir/tools.cpp.obj
+build partc.exe: CXX_EXECUTABLE_LINKER__partc_Debug CMakeFiles/partc.dir/Assignment4/part_c/driver.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled1.dir
+  OBJECT_DIR = CMakeFiles\partc.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled1.exe
-  TARGET_IMPLIB = libuntitled1.dll.a
-  TARGET_PDB = untitled1.exe.dbg
+  TARGET_FILE = partc.exe
+  TARGET_IMPLIB = libpartc.dll.a
+  TARGET_PDB = partc.exe.dbg
 
 
 #############################################
@@ -129,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled1: phony untitled1.exe
+build partc: phony partc.exe
 
 # =============================================================================
 # Folder targets.
@@ -139,7 +109,7 @@ build untitled1: phony untitled1.exe
 #############################################
 # Folder: C:/Users/emadn/CLionProjects/untitled1/cmake-build-debug
 
-build all: phony untitled1.exe
+build all: phony partc.exe
 
 # =============================================================================
 # Built-in targets
